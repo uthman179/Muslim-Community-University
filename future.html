@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4830131fa0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&family=Poppins&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <title>Muslim Community School</title>
+   <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    font-size: 25px;
+    margin-left: 100px;
+    color: white;
+}
+.welcome{
+    width: 100%;
+    height: 40px;
+    background-color:  #ff7300;
+}
+.t1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 13px;
+    margin-left: 100px;
+}
+.t2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: -17px;
+    margin-left: 1200px;
+}
+.dropbtn{
+    background-color: transparent;
+    color: white;
+    padding: 18px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    min-width: 210px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:#ff7300;
+    min-width: 210px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 19px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+}
+.dropdown-content a:hover{
+    background-color: #1400c6;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:hover .dropbtn{
+    background-color: #ff7300;
+}
+.header{
+    width: 100%;
+    background-color: #1400c6;
+    height: 60px;
+
+}
+.wallaper{
+    height: 70vh;
+    background: linear-gradient(90deg, rgba(255,115,0,0.4) 0%, rgba(37,12,96,0.6) 78%, rgba(11,0,107,0.3) 100%) ,url(12.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-left: 70px;
+}
+h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 95px;
+    margin-top: 40px;
+    font-weight: 700px;
+}
+.hr1{
+    width: 38%;
+    margin-left: 100px;
+    border-top: 2px solid #1400c6;
+}
+.img3{
+    margin-top: -43px;
+    width: 80px;
+    margin-left: 680px;
+}
+.hr2{
+    margin-left: 770px;
+    margin-top: -40px;
+    width: 42%;
+    border-top: 2px solid #1400c6;
+}
+.img1{
+    width: 1270px;
+    height: 630px;
+    margin-left: 100px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+}
+.img1:hover {
+    box-shadow: 0 0px 2px 1px #1400c6;
+  }
+.t4{
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 35px;
+}
+footer{
+    width: 100%;
+    height: 90vh;
+    background: #5694c0;
+}
+.img5{
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.t20{
+    color: #0d007e;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-left: 50px
+}
+.hr3{
+    width: 30%;
+    border-top: 3px ;
+    margin-left: 30px;
+}
+.icons{
+    margin-left: 70px;
+    word-spacing: 20px;
+    margin-top:0px;
+}
+span{
+    width: 50px;
+}
+.btn4{
+    background-color: #ffffff;
+    color: #1400c6;
+    border: 3px solid #1400c6;
+    padding: 13px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition-duration: 0.4s;
+    margin-left: 120px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.btn4:hover{
+    background-color: #aac8ff
+}
+.t21{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 540px;
+    margin-top: -340px;
+    color: #0d007e;
+}
+.ph{
+    margin-left: 540px;
+    font-size: 20px;
+    color: #0d007e;
+    margin-top: -190px;
+}
+.t23{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: #0d007e;
+}
+.t24{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: #0d007e;
+}
+.email{
+    margin-left: 770px;
+    margin-top: -530px;
+    font-size: 17px;
+    color: #0d007e;
+    font-family: 'Poppins', sans-serif;
+}
+.t25{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: #0d007e;
+}
+.hr4{
+    width: 50%;
+}
+.form{
+    margin-left: 1170px;
+    margin-top: -360px;
+}
+.t29{
+    font-size: 19px;
+    color: #0d007e;
+    font-family: 'Poppins', sans-serif;
+}
+.form input{
+    padding: 15px 40px;
+    font-size: 17px;
+}
+.form{
+    margin-top: -320px;
+}
+.btn5{
+    background-color:#0d007e;
+    color: #ffffff;
+    border: 3px solid #1400c6;
+    padding: 13px 105px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition-duration: 0.4s;
+    font-size: 20px;
+}
+.btn5:hover{
+    background-color: #0043be
+}
+.t30{
+    color: #0d007e;
+    font-family: 'Poppins', sans-serif;
+    margin-left: -1100px;
+    margin-top: 20px;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #1400c6; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #ff7300; /* Add a dark-grey background on hover */
+  }
+  
+   </style>
+</head>
+<body>
+    <div class="welcome">
+        <p class="t1"><i class="fa-regular fa-envelope"></i>      muslimcommunityuniversity@gmail.com</p>
+        <p class="t2"><i class="fa-solid fa-phone"></i>       +2348139696219</p>
+    </div>
+    <div class="header"> <a class="home" href="index.html"><i class="fa-solid fa-house"></i></a>
+        <ul class="dropdown">
+            <button class="dropbtn">Our School      <i class="fa-solid fa-caret-down"></i></button>
+           <ul class="dropdown-content">
+                <a href="chancellor.html">Chancellor's Welcome Address</a>
+                <a href="Ourdistinction.html">Why Our School</a>
+                <a href="Facilities.html">Facilities</a>
+                <a href="Leadership.html">Leadership Team</a>
+                <a href="employment.html">Employment</a>
+                <a href="future.html">Future Plans</a>
+            </ul>
+        </ul>
+        <ul class="dropdown">
+            <button class="dropbtn">Enroll      <i class="fa-solid fa-caret-down"></i></button>
+            <ul class="dropdown-content">
+                <a href="schooltour.html">Campus Tours</a>
+                <a href="#">Entry Years</a>
+                <a href="#">Schloarship and Bursary</a>
+                <a href="#">Beyond Classroom</a>
+                <a href="#">Fees and Payment</a>
+                <a href="#">Sports</a>
+                <a href="#">Enroll Now !!!</a>
+            </ul>
+        </ul>
+        <ul class="dropdown">
+            <button class="dropbtn">Academics      <i class="fa-solid fa-caret-down"></i></button>
+            <ul class="dropdown-content">
+                <a href="#">Faculty of Engineering</a>
+                <a href="#">Faculty of Arts</a>
+                <a href="#">Faculty of Law</a>
+                <a href="#">Faculty of Science</a>
+                <a href="#"> Faculty of Education</a>
+                <a href="#">Faculty of Social Sciences</a>
+                <a href="#">Faculty of Pharmacy</a>
+                <a href="#">Faculty of Environmental Sciences</a>
+                <a href="#">Faculty of Basic Medical Sciences</a>
+                <a href="#">Faculty of Management Sciences</a>
+            </ul>
+        </ul>
+        <ul class="dropdown" >
+            <button class="dropbtn">Addmission      <i class="fa-solid fa-caret-down"></i></button>
+            <ul class="dropdown-content">
+                <a href="#"> Foundation</a>
+                <a href="#">Undergraduate</a>
+                <a href="#">Post Graduate</a>
+                <a href="#">Distance Learning Institute</a>
+                <a href="#">Institute of Continuing Education</a>
+                <a href="#">International Students </a>
+                <a href="#">Health care</a>
+            </ul>
+        </ul>
+        <ul class="dropdown">
+            <button class="dropbtn">Our community      <i class="fa-solid fa-caret-down"></i></button>
+            <ul class="dropdown-content">
+                <a href="#">News & Events</a>
+                <a href="#">Board Of MCU</a>
+                <a href="#">Past Students</a>
+                <a href="#">School Shop</a>
+                <a href="#">Pay Online</a>
+                <a href="#">Bus Network</a>
+                <a href="#">MCU App</a>
+            </ul>
+        </ul>
+    </div>
+    <div class="wallaper">
+        <h1>FUTURE PLANS</h1>
+    </div>
+    <br><br><br><br>
+    <hr class="hr1">
+    <img class="img3" src="logo.png" alt="">
+    <hr class="hr2">
+    <br><br><br><br><br>
+    <img class="img1" src="114.jpg" alt="">
+    <br><br><br><br><br>
+    <hr class="hr1">
+    <img class="img3" src="logo.png" alt="">
+    <hr class="hr2">
+    <br><br><br><br>
+    <p class="t4">Muslim University Community (MCU) is passionate about providing a learning environment that inspires its students. The 100-year-old grounds<br> and facilities have been carefully and respectfully enhanced to not only cater to the increasing University population but to ensure they promote<br> a desire for educational excellence.  The University Masterplan 2023+ Designing for the Future is the renewed Masterplan future-proofing the <br>facilities and resources of the School. MCU will undertake the delivery of this Masterplan as a phased approach and the below highlights some of <br>the major works in progress, planned, or completed. The University  has applied to the Department of State Development, Infrastructure, Local<br> Government and Planning (DSDILGP) seeking endorsement for a Ministerial Infrastructure Designation (MID) to improve the learning facilities for <br>our students over time.</p>
+    <br><br><br><br>
+    <hr class="hr1">
+    <img class="img3" src="logo.png" alt="">
+    <hr class="hr2">
+    <br><br><br><br><br>
+    <img class="img1" src="115.jpg" alt="">
+    <br><br><br><br><br>
+    <hr class="hr1">
+    <img class="img3" src="logo.png" alt="">
+    <hr class="hr2">
+    <br><br><br><br>
+    <img class="img1" src="116.jpg" alt="">
+    <br><br><br><br><br>
+    <hr class="hr1">
+    <img class="img3" src="logo.png" alt="">
+    <hr class="hr2">
+    <br><br><br><br>
+    <img class="img1" src="119.png" alt="">
+    <br><br><br><br><br>
+    <hr class="hr1">
+    <img class="img3" src="logo.png" alt="">
+    <hr class="hr2">
+    <br><br><br><br>
+    <img class="img1" src="117.jpg" alt="">
+    <br><br><br><br><br>
+    <hr class="hr1">
+    <img class="img3" src="logo.png" alt="">
+    <hr class="hr2">
+    <br><br><br><br>
+    <img class="img1" src="118.jpeg" alt="">
+    <br><br><br><br><br>
+    <hr class="hr1">
+    <img class="img3" src="logo.png" alt="">
+    <hr class="hr2">
+    <br><br><br><br>
+    <img class="img1" src="113.jpg" alt="">
+    <br><br><br><br><br>
+    <hr class="hr1">
+    <img class="img3" src="logo.png" alt="">
+    <hr class="hr2">
+    <br><br><br><br>
+    <img class="img1" src="111.jpg" alt="">
+    <br><br><br><br><br>
+    <hr class="hr1">
+    <img class="img3" src="logo.png" alt="">
+    <hr class="hr2">
+    <br><br><br><br>
+    <img class="img1" src="31.jpg" alt="">
+    <br><br><br><br><br><br>
+    <hr class="hr1">
+    <img class="img3" src="logo.png" alt="">
+    <hr class="hr2">
+    <br><br><br><br><br> <br><br>
+    <footer>
+        <img class="img5" src="logo.png" alt="">
+        <br>
+        <p class="t20">MUSLIM COMMUNITY UNIVERSITY</p>
+        <hr class="hr3">
+        <br><br><br>
+        <div class="icons">
+            <span class="ic"><img width="30px" src="icon-twitter.svg"></span>
+            <span class="ic"><img width="30px" src="icon-facebook.svg"></span>
+            <span class="ic"><img width="30px" src="icon-pinterest.svg"></span>
+            <span class="ic"><img width="30px" src="icon-youtube.svg"></span>
+            <span class="ic"><img width="30px" src="icon-instagram.svg"></span>
+        </div>
+        <a href="#"><button class="btn4">Enroll Now!!!</button></a>
+       <strong><p class="t21">Phone</p></strong>
+        <div class="ph">
+            <p><i class="fa-solid fa-phone"></i></p><strong><p class="t23">Chancellor's Office</p><p class="t24">+2348055637333</p></strong>
+            <br>
+            <p><i class="fa-solid fa-phone"></i></p><strong><p class="t23">Student Reception:</p><p class="t24">+2348055637333</p></strong>
+            <br>
+            <p><i class="fa-solid fa-phone"></i></p><strong><p class="t23">Hostels Reception:</p><p class="t24">+2348055637333</p></strong>
+            <br>
+            <p><i class="fa-solid fa-phone"></i></p><strong><p class="t23">Bursary Reception:</p><p class="t24">+2348055637333</p></strong>
+            <br>
+            <p><i class="fa-solid fa-phone"></i></p><strong><p class="t23"> Addmisssion Reception:</p><p class="t24">+2348055637333</p></strong>
+        </div>
+        <div class="email">
+           <strong> <p class="t25">Email</p></strong>
+           <br>
+           <strong> <i class="fa-regular fa-envelope" style="font-size: 26px;"></i><p class="t26">muslimcommunityuniversity@gmail.com</p></strong>
+            <br>
+            <strong><i class="fa-regular fa-envelope" style="font-size: 26px;"></i><p class="t27">muslimcommunityuniversity@yahoo.com</p></strong>
+            <br>
+            <hr class="hr4">
+            <br>
+            <i class="fa-solid fa-location-dot" style="font-size: 26px;"></i>
+           <strong> <p class="t28">20,Ganiyu Smith Road, Lagos Island,<br> Lagos State, Nigeria.</p></strong>
+        </div>
+        <div class="form">
+            <i class="fa-regular fa-envelope" style="font-size: 26px; color:#0d007e;"></i>   <strong><span class="t29">Sign Up For School News</span></strong>
+            <br><br>
+            <form>
+                
+                <input type="first name" id="name" placeholder="First name *">
+                <br>
+                <br>
+                <input type="first name" id="name" placeholder="Last name *">
+                <br><br>
+                <input type="email" id="email" placeholder="Email address *">
+            </form>
+            <br><br>
+            <a href="#"><button class="btn5">Subscribe</button></a>
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+            <script>
+                // Get the button
+                let mybutton = document.getElementById("myBtn");
+                
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function() {scrollFunction()};
+                
+                function scrollFunction() {
+                  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                  } else {
+                    mybutton.style.display = "none";
+                  }
+                }
+                
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                  document.body.scrollTop = 0;
+                  document.documentElement.scrollTop = 0;
+                }
+                </script>
+                
+            <br>
+            <br><br>
+            <p class="t30">&#169; Muslism Community University 2023 <br> &#124; Privacy &#124;  Disclamer &#124; Designed by <br> GIWA UTHMAN AYOMIDE</p>
+        </div>
+    </footer>
+</body>
+</html>
